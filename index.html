@@ -9,10 +9,16 @@
 </head>
 <body>
     <!-- Ensure the container is defined before your scripts -->
-    <div id="spine-player-container" style="height: 100vh; background-color: 'transparent';"></div>
+    <div id="spine-player-container" style="height: 90vh; background-color: 'transparent';"></div>
+    <div style="margin-top: 1rem;">
+        <button style="background-color: green; color: white;width: 10rem;height: 2rem;" onclick="jump()">JUMP</button>
+        <button style="background-color: green; color: white;width: 10rem;height: 2rem;" onclick="roar()">ROAR</button>
+    </div>
+    <!-- <div id="spine-player-container" style="height: 100vh; background-color: 'transparent';"></div>
     <button onclick="dressModel(['hat/mage'])">add mage hat</button>
     <button onclick="assembleSkin(['hat/mage', 'armor/mage'])">assemble skin</button>
-    <button onclick="removeFromSkin('hat/mage')">remove hat mage</button>
+    <button onclick="removeFromSkin('hat/mage')">remove hat mage</button> -->
+
 
     <!-- Spine Player CSS -->
     <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.1.*/dist/spine-player.min.css">

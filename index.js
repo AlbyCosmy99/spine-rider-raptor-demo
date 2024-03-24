@@ -4,7 +4,7 @@ let currentBackgroundColor = "rgba(0, 0, 0, 0)"; // Fully transparent
 let activeSkins = []; //current active skins
 
 // Function to initialize Spine Player
-window.initializeSpinePlayer = skins => {
+window.initializeSpinePlayer = (skins) => {
   console.log("webplayer.js: initializeSpinePlayer called.");
 
   if (!spine) {
@@ -24,7 +24,7 @@ window.initializeSpinePlayer = skins => {
   spinePlayer = new spine.SpinePlayer("spine-player-container", {
     jsonUrl: './raptor-pma.json',
     atlasUrl: './raptor-pma.atlas.txt',
-    //animation: "jump",
+    animation: "walk",
     skin: "default",
     showControls: false,
     premultipliedAlpha: true,
@@ -102,7 +102,6 @@ function removeFromSkin(skinNameToRemove) {
 
 function createSkinModel(name, skins, player = spinePlayer) {
   let customSkin = new spine.Skin(name);
-  console.log(skins)
   skins.forEach(skinName => {
     let skinToAdd = player.skeleton.data.findSkin(skinName);
     if (skinToAdd) {
@@ -120,5 +119,27 @@ function createSkinModel(name, skins, player = spinePlayer) {
   player.skeleton.setSlotsToSetupPose();
 }
 
+function jump() {
+  animation(0, "jump")
+}
+
+function roar() {
+  animation(0, "roar")
+}
+
+function animation(channel, name, loop = false, after = "walk") {
+  if (spinePlayer && spinePlayer.animationState) {
+    const animationState = spinePlayer.animationState;
+
+    animationState.setAnimation(channel, name, loop);
+    animationState.addAnimation(channel, after, true, 0);
+    console.log(`${name} animation should now play.`);
+  } else {
+    console.error('Spine Player or animation state not properly initialized.');
+  }
+}
+
+
+
 // Call to start the initialization process
-assembleSkin(["head/nude_T1", "body/nude_T1"]);
+assembleSkin(["default"]);
