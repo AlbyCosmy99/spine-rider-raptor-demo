@@ -22,10 +22,10 @@ window.initializeSpinePlayer = skins => {
 
   // Initialize the Spine player
   spinePlayer = new spine.SpinePlayer("spine-player-container", {
-    jsonUrl: './human_protoclass.json',
-    atlasUrl: './human_protoclass.atlas.txt',
-    animation: "idle/hold_short_weapon",
-    skin: "full_skins/nude",
+    jsonUrl: './raptor-pma.json',
+    atlasUrl: './raptor-pma.atlas.txt',
+    //animation: "jump",
+    skin: "default",
     showControls: false,
     premultipliedAlpha: true,
     backgroundColor: currentBackgroundColor,
