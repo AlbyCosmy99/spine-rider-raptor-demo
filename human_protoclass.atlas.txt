@@ -1,0 +1,582 @@
+human_protoclass.png
+	size: 4096, 2048
+	filter: Linear, Linear
+	pma: true
+arrow
+	bounds: 3785, 1431, 37, 363
+axe
+	bounds: 3249, 246, 134, 308
+	rotate: 180
+battle axe
+	bounds: 3034, 900, 227, 459
+bow
+	bounds: 3312, 703, 104, 611
+bow_string
+	bounds: 378, 872, 16, 521
+dagger_fr
+	bounds: 3734, 545, 50, 193
+fire/fire_000
+	bounds: 1238, 840, 415, 607
+	offsets: 12, 0, 427, 659
+fire/fire_001
+	bounds: 350, 1395, 427, 650
+	offsets: 0, 0, 427, 659
+fire/fire_002
+	bounds: 645, 116, 427, 635
+	offsets: 0, 24, 427, 659
+fire/fire_003
+	bounds: 836, 796, 400, 643
+	offsets: 0, 16, 427, 659
+fire/fire_004
+	bounds: 1929, 209, 384, 649
+	offsets: 5, 10, 426, 659
+fire/fire_005
+	bounds: 2, 141, 426, 641
+	offsets: 1, 18, 427, 659
+	rotate: 90
+fire/fire_006
+	bounds: 407, 753, 427, 640
+	offsets: 0, 19, 427, 659
+fire/fire_007
+	bounds: 779, 1441, 427, 604
+	offsets: 0, 33, 427, 659
+fire/fire_008
+	bounds: 1074, 193, 427, 601
+	offsets: 0, 37, 427, 659
+fire/fire_009
+	bounds: 2074, 864, 413, 597
+	offsets: 0, 31, 426, 659
+fire/fire_010
+	bounds: 2492, 1469, 402, 576
+	offsets: 9, 47, 427, 659
+fire/fire_011
+	bounds: 2066, 1463, 424, 582
+	offsets: 3, 44, 427, 659
+fire/fire_012
+	bounds: 1637, 1460, 427, 585
+	offsets: 0, 34, 427, 659
+fire/fire_013
+	bounds: 2315, 283, 418, 579
+	offsets: 0, 31, 427, 659
+fire/fire_014
+	bounds: 2735, 345, 404, 553
+	offsets: 0, 28, 426, 659
+fire/fire_015
+	bounds: 1503, 246, 424, 592
+	offsets: 3, 38, 427, 659
+fire/fire_016
+	bounds: 2489, 900, 427, 561
+	offsets: 0, 58, 427, 659
+fire/fire_017
+	bounds: 1208, 1449, 427, 596
+	offsets: 0, 32, 427, 659
+fire/fire_018
+	bounds: 1655, 860, 417, 598
+	offsets: 0, 46, 427, 659
+great_sword
+	bounds: 2, 1490, 127, 555
+greatclub
+	bounds: 2, 569, 468, 1476
+halberd
+	bounds: 2141, 119, 188, 750
+	rotate: 270
+hammer_forge
+	bounds: 3151, 97, 140, 376
+	offsets: 0, 0, 140, 377
+javelin
+	bounds: 3141, 171, 77, 740
+	offsets: 2, 0, 79, 740
+mage/arm_bk_1
+	bounds: 3579, 1691, 91, 135
+mage/arm_fr_1
+	bounds: 3598, 1209, 94, 122
+mage/beard
+	bounds: 3623, 1324, 96, 127
+	rotate: 270
+mage/belt
+	bounds: 2, 570, 116, 60
+	rotate: 90
+mage/belt_object
+	bounds: 3396, 1646, 176, 232
+	offsets: 1, 2, 177, 234
+mage/belt_part
+	bounds: 3172, 1085, 103, 243
+	offsets: 0, 0, 104, 243
+mage/eyes
+	bounds: 3418, 984, 82, 46
+	offsets: 2, 4, 86, 54
+	rotate: 90
+mage/foot_bk_1
+	bounds: 3476, 994, 103, 149
+	offsets: 1, 0, 104, 150
+	rotate: 180
+mage/foot_bk_2
+	bounds: 160, 9, 74, 129
+	offsets: 1, 1, 76, 131
+	rotate: 90
+mystic/foot_bk_2
+	bounds: 160, 9, 74, 129
+	offsets: 1, 1, 76, 131
+	rotate: 90
+mage/foot_fr_1
+	bounds: 3538, 830, 89, 162
+mage/foot_fr_2
+	bounds: 3473, 5, 104, 149
+	offsets: 0, 0, 104, 150
+	rotate: 180
+mage/forearm_bk_1
+	bounds: 2675, 21, 101, 134
+mage/forearm_bk_2
+	bounds: 3639, 161, 67, 143
+mage/forearm_fr_1
+	bounds: 2918, 901, 86, 136
+mage/forearm_fr_2
+	bounds: 3255, 233, 68, 143
+mage/hair_fr
+	bounds: 3719, 1132, 116, 107
+	rotate: 270
+mage/hand_bk_1
+	bounds: 2995, 900, 50, 58
+	rotate: 180
+nude/skin/hand_bk_1
+	bounds: 2995, 900, 50, 58
+	rotate: 180
+mage/hand_bk_2
+	bounds: 3226, 1323, 49, 55
+nude/skin/hand_bk_2
+	bounds: 3226, 1323, 49, 55
+mage/hand_fr_1
+	bounds: 3786, 159, 56, 61
+nude/skin/hand_fr_4
+	bounds: 3786, 159, 56, 61
+mage/hand_fr_2
+	bounds: 3772, 944, 49, 55
+	rotate: 90
+nude/skin/hand_fr_2
+	bounds: 3772, 944, 49, 55
+	rotate: 90
+mage/hand_fr_4
+	bounds: 2757, 6, 55, 65
+mage/hat_bk
+	bounds: 1480, 8, 207, 57
+	offsets: 0, 1, 207, 58
+mage/hat_fr
+	bounds: 3398, 1021, 207, 126
+	rotate: 90
+mage/head
+	bounds: 3604, 946, 92, 110
+	rotate: 180
+mage/leg_bk_1
+	bounds: 3448, 302, 80, 161
+	offsets: 0, 1, 80, 162
+nude/skin/leg_bk_1
+	bounds: 3448, 302, 80, 161
+	offsets: 0, 1, 80, 162
+mage/leg_bk_2
+	bounds: 2, 1108, 82, 175
+	offsets: 1, 1, 84, 177
+mage/leg_fr_1
+	bounds: 3500, 735, 76, 168
+	offsets: 0, 9, 76, 177
+mage/leg_fr_2
+	bounds: 3487, 526, 74, 164
+	offsets: 0, 4, 74, 168
+mystic/leg_fr_2
+	bounds: 3487, 526, 74, 164
+	offsets: 0, 4, 74, 168
+mage/neck_1
+	bounds: 3549, 1538, 151, 105
+	rotate: 270
+mage/shoulder_bk
+	bounds: 3407, 840, 122, 154
+	offsets: 36, 0, 158, 154
+mage/shoulder_fr
+	bounds: 3362, 711, 147, 159
+	rotate: 90
+mage/skirt
+	bounds: 1502, 60, 184, 241
+	rotate: 90
+mage/tabard_1
+	bounds: 3190, 554, 179, 172
+	rotate: 270
+mage/tabard_2
+	bounds: 3206, 1497, 166, 168
+	rotate: 180
+mage/torso_1
+	bounds: 2973, 17, 162, 177
+	offsets: 0, 0, 162, 183
+	rotate: 90
+mage/torso_2
+	bounds: 2793, 19, 146, 183
+	rotate: 90
+mage/waist_bk
+	bounds: 3263, 1656, 128, 181
+	offsets: 0, 1, 128, 182
+	rotate: 270
+mage/waist_fr
+	bounds: 3279, 64, 135, 182
+	rotate: 180
+maverick/arm_bk
+	bounds: 2, 940, 77, 145
+maverick/arm_fr
+	bounds: 3276, 1127, 77, 142
+	rotate: 180
+maverick/belt
+	bounds: 3370, 1586, 138, 124
+maverick/cape
+	bounds: 2896, 1650, 272, 395
+maverick/eyes
+	bounds: 3305, 853, 82, 53
+	offsets: 0, 3, 87, 59
+	rotate: 90
+maverick/foot_bk_1
+	bounds: 3652, 434, 107, 112
+	offsets: 1, 0, 108, 112
+	rotate: 180
+maverick/foot_fr_1
+	bounds: 3673, 727, 76, 117
+maverick/forearm_bk_1
+	bounds: 3753, 1841, 62, 99
+	offsets: 0, 6, 62, 105
+maverick/forearm_bk_2
+	bounds: 3768, 870, 67, 73
+maverick/forearm_fr_1
+	bounds: 3713, 139, 71, 120
+maverick/forearm_fr_2
+	bounds: 3760, 994, 71, 74
+maverick/hand_bk_1
+	bounds: 3791, 275, 50, 58
+maverick/hand_bk_2
+	bounds: 3784, 589, 49, 55
+maverick/hand_fr_1
+	bounds: 3782, 215, 56, 61
+maverick/hand_fr_2
+	bounds: 291, 3, 49, 55
+maverick/hood_bk
+	bounds: 3372, 454, 130, 135
+maverick/hood_fr
+	bounds: 3352, 578, 136, 140
+maverick/leg_bk
+	bounds: 3484, 1330, 79, 150
+maverick/leg_fr
+	bounds: 3467, 153, 91, 152
+	offsets: 0, 0, 151, 152
+maverick/shoulder_bk
+	bounds: 3759, 1069, 82, 103
+maverick/shoulder_fr
+	bounds: 3348, 1218, 164, 141
+	rotate: 270
+maverick/torso_1
+	bounds: 3216, 1778, 162, 172
+	offsets: 0, 0, 162, 186
+maverick/torso_2
+	bounds: 3131, 1353, 146, 183
+maverick/waist_bk
+	bounds: 2918, 1034, 120, 238
+maverick/waist_fr
+	bounds: 1071, 39, 136, 246
+	offsets: 2, 0, 140, 246
+	rotate: 90
+morning star
+	bounds: 3126, 1593, 137, 380
+mystic/arm_bk_1
+	bounds: 3636, 838, 81, 135
+mystic/arm_fr_1
+	bounds: 3688, 1210, 88, 112
+mystic/belt
+	bounds: 1216, 8, 131, 52
+mystic/belt_object
+	bounds: 3749, 713, 75, 84
+mystic/belt_part
+	bounds: 3277, 1311, 102, 186
+mystic/cape
+	bounds: 2905, 1269, 229, 380
+mystic/eyes
+	bounds: 3545, 1177, 80, 51
+	offsets: 2, 4, 86, 58
+mystic/foot_bk_1
+	bounds: 81, 1901, 105, 144
+mystic/foot_fr_2
+	bounds: 81, 1901, 105, 144
+mystic/foot_fr_1
+	bounds: 3523, 237, 88, 162
+	offsets: 0, 0, 89, 162
+mystic/forearm_bk_1
+	bounds: 3692, 1485, 72, 122
+mystic/forearm_bk_2
+	bounds: 3136, 1541, 64, 61
+mystic/forearm_fr_2
+	bounds: 3136, 1541, 64, 61
+mystic/forearm_fr_1
+	bounds: 3690, 1858, 79, 128
+mystic/hair_fr
+	bounds: 744, 12, 108, 102
+mystic/hand_bk_1
+	bounds: 1157, 2, 50, 58
+	rotate: 90
+mystic/hand_bk_2
+	bounds: 3779, 530, 51, 57
+mystic/hand_bk_4
+	bounds: 3424, 1186, 67, 67
+mystic/hand_fr_1
+	bounds: 3780, 653, 56, 58
+	offsets: 0, 1, 56, 61
+mystic/hand_fr_2
+	bounds: 3450, 1711, 53, 59
+mystic/hand_fr_3
+	bounds: 3262, 25, 55, 65
+mystic/hat_fr
+	bounds: 3379, 1359, 99, 77
+	rotate: 180
+mystic/head
+	bounds: 3615, 1930, 92, 104
+mystic/leg_bk_1
+	bounds: 3029, 1090, 80, 162
+mystic/leg_bk_2
+	bounds: 3458, 1868, 84, 177
+mystic/leg_fr_1
+	bounds: 1809, 8, 76, 168
+	offsets: 0, 9, 76, 177
+	rotate: 90
+mystic/neck_1
+	bounds: 3595, 700, 153, 76
+	rotate: 90
+mystic/necklace
+	bounds: 2764, 259, 84, 112
+	offsets: 1, 0, 85, 112
+	rotate: 270
+mystic/shoulder_bk
+	bounds: 3705, 1374, 92, 93
+	rotate: 90
+mystic/shoulder_fr
+	bounds: 3702, 1651, 96, 91
+mystic/tabard
+	bounds: 3253, 924, 133, 210
+	offsets: 0, 66, 133, 276
+mystic/torso_1
+	bounds: 1315, 29, 162, 183
+	rotate: 90
+mystic/torso_2
+	bounds: 2178, 9, 146, 183
+	rotate: 270
+mystic/waist_bk
+	bounds: 264, 1829, 71, 216
+mystic/waist_fr
+	bounds: 3342, 1844, 116, 201
+	rotate: 180
+mystic/waist_skirt
+	bounds: 453, 569, 163, 182
+nude/beard
+	bounds: 3771, 1782, 62, 65
+nude/beard_goatie
+	bounds: 293, 2014, 45, 31
+	offsets: 2, 0, 47, 31
+nude/beard_short
+	bounds: 779, 1399, 54, 40
+	offsets: 1, 0, 55, 40
+nude/beard_stache
+	bounds: 836, 754, 59, 40
+nude/beard_very_long
+	bounds: 3255, 377, 71, 67
+	offsets: 0, 0, 71, 69
+nude/belt
+	bounds: 1074, 147, 124, 44
+nude/eyes_angry
+	bounds: 2315, 229, 84, 52
+	offsets: 1, 1, 86, 54
+nude/eyes_calm
+	bounds: 2595, 231, 81, 50
+	offsets: 1, 4, 86, 58
+nude/eyes_happy
+	bounds: 2401, 230, 84, 51
+	offsets: 1, 1, 86, 53
+nude/eyes_serious
+	bounds: 2487, 236, 83, 45
+	offsets: 1, 1, 85, 47
+nude/hair_long_1
+	bounds: 3596, 1413, 108, 132
+	rotate: 180
+nude/hair_long_2
+	bounds: 3663, 1736, 111, 107
+	rotate: 270
+nude/hair_short_1
+	bounds: 3712, 1942, 89, 103
+	offsets: 1, 0, 90, 103
+	rotate: 180
+nude/hair_short_2
+	bounds: 983, 3, 89, 97
+	offsets: 1, 0, 90, 97
+	rotate: 270
+nude/skin/arm_bk_1
+	bounds: 3694, 846, 77, 135
+	rotate: 180
+nude/skin/arm_bk_2
+	bounds: 3694, 846, 77, 135
+	rotate: 180
+nude/skin/arm_fr_1
+	bounds: 2071, 3, 86, 106
+	offsets: 0, 0, 88, 107
+	rotate: 90
+nude/skin/arm_fr_2
+	bounds: 2071, 3, 86, 106
+	offsets: 0, 0, 88, 107
+	rotate: 90
+nude/skin/arm_fr_3
+	bounds: 3697, 992, 139, 63
+	offsets: 0, 0, 147, 63
+	rotate: 90
+nude/skin/foot_bk_1
+	bounds: 3694, 259, 98, 120
+	offsets: 0, 2, 98, 128
+	rotate: 180
+nude/skin/foot_bk_2
+	bounds: 3671, 303, 76, 131
+	rotate: 180
+nude/skin/foot_fr_1
+	bounds: 3643, 1592, 76, 142
+	offsets: 0, 0, 85, 159
+nude/skin/foot_fr_2
+	bounds: 3563, 1330, 89, 149
+	offsets: 0, 0, 89, 154
+nude/skin/forearm_bk_1
+	bounds: 79, 1484, 62, 104
+	offsets: 2, 1, 64, 110
+nude/skin/forearm_bk_2
+	bounds: 2, 1290, 65, 62
+nude/skin/forearm_fr_1
+	bounds: 3744, 415, 58, 118
+nude/skin/forearm_fr_2
+	bounds: 3768, 95, 64, 61
+nude/skin/forearm_fr_3
+	bounds: 3191, 498, 56, 120
+nude/skin/hand_bk_4
+	bounds: 3771, 28, 67, 67
+nude/skin/hand_fr_1
+	bounds: 1739, 183, 53, 61
+	offsets: 0, 1, 53, 63
+nude/skin/hand_fr_3
+	bounds: 3467, 693, 55, 65
+nude/skin/head
+	bounds: 3212, 1953, 92, 110
+	rotate: 90
+nude/skin/leg_bk_2
+	bounds: 3507, 1754, 76, 168
+	offsets: 0, 9, 76, 177
+	rotate: 180
+nude/skin/leg_fr_1
+	bounds: 3506, 1476, 76, 169
+	offsets: 0, 8, 76, 177
+	rotate: 180
+nude/skin/leg_fr_2
+	bounds: 3063, 181, 71, 162
+nude/skin/torso_1
+	bounds: 1954, 42, 155, 183
+	rotate: 90
+nude/skin/torso_2
+	bounds: 2879, 197, 146, 183
+	rotate: 90
+nude/stache
+	bounds: 310, 1581, 38, 20
+nude/waist_bk
+	bounds: 3598, 1828, 100, 105
+	rotate: 180
+nude/waist_fr
+	bounds: 3490, 1225, 110, 115
+	rotate: 270
+shield
+	bounds: 1732, 37, 207, 222
+	rotate: 270
+shield_up
+	bounds: 3384, 192, 75, 238
+sling_bk
+	bounds: 3645, 498, 56, 223
+sling_bullet
+	bounds: 3777, 372, 60, 57
+sling_fr
+	bounds: 284, 1603, 52, 229
+staff
+	bounds: 2, 64, 75, 621
+	rotate: 90
+sword
+	bounds: 321, 17, 91, 421
+	rotate: 90
+torch
+	bounds: 99, 1599, 37, 262
+warrior/arm_bk
+	bounds: 3652, 1083, 73, 153
+	offsets: 149, 0, 222, 153
+warrior/arm_fr
+	bounds: 3583, 456, 89, 153
+	offsets: 1, 0, 93, 153
+warrior/belt
+	bounds: 2, 7, 136, 61
+	offsets: 0, 21, 145, 90
+warrior/belt_part
+	bounds: 3188, 729, 123, 195
+	offsets: 0, 0, 124, 195
+warrior/eyes
+	bounds: 2, 1087, 45, 19
+	offsets: 21, 20, 87, 59
+warrior/foot_bk_1
+	bounds: 3599, 28, 115, 133
+	offsets: 112, 2, 227, 246
+	rotate: 180
+warrior/foot_fr_1
+	bounds: 3565, 91, 79, 144
+	offsets: 2, 1, 83, 145
+warrior/forearm_bk_1
+	bounds: 3150, 7, 78, 111
+	offsets: 4, 3, 87, 129
+	rotate: 90
+warrior/forearm_fr_1
+	bounds: 3695, 14, 77, 111
+	offsets: 0, 2, 78, 126
+warrior/forearm_fr_2
+	bounds: 3732, 796, 88, 76
+warrior/hand_bk
+	bounds: 2, 898, 57, 47
+	offsets: 0, 0, 57, 48
+warrior/hand_fr_1
+	bounds: 2896, 1653, 61, 59
+	offsets: 0, 0, 61, 60
+warrior/head
+	bounds: 3585, 300, 97, 130
+	offsets: 0, 0, 98, 130
+	rotate: 180
+warrior/hood_bk
+	bounds: 3365, 1433, 122, 147
+	offsets: 0, 0, 124, 147
+warrior/hood_fr
+	bounds: 3550, 1035, 122, 145
+	offsets: 0, 2, 122, 147
+	rotate: 180
+warrior/leg_bk
+	bounds: 3541, 1885, 74, 160
+	offsets: 0, 0, 75, 160
+warrior/leg_fr
+	bounds: 3547, 586, 81, 165
+	offsets: 6, 7, 87, 172
+warrior/neck_1
+	bounds: 854, 9, 159, 105
+	offsets: 5, 0, 169, 105
+warrior/shoulder_bk
+	bounds: 3744, 1268, 90, 99
+	offsets: 1, 0, 91, 99
+	rotate: 90
+warrior/shoulder_fr
+	bounds: 3510, 402, 123, 125
+	offsets: 3, 0, 130, 125
+warrior/torso_1
+	bounds: 2362, 9, 160, 163
+	offsets: 1, 1, 162, 166
+	rotate: 270
+warrior/torso_2
+	bounds: 2519, 22, 160, 163
+	offsets: 1, 1, 162, 166
+	rotate: 90
+warrior/waist_bk
+	bounds: 2, 1351, 90, 139
+	offsets: 16, 24, 106, 163
+warrior/waist_fr
+	bounds: 3404, 45, 111, 149
+	offsets: 6, 108, 117, 257
