@@ -3,7 +3,7 @@
 This project is a simple interactive web demo built with the **[Spine Player](http://esotericsoftware.com/spine-player)** library.  
 It showcases a character (rider + raptor) with animations that can be triggered directly from the UI.
 
-🌍 **Live Demo [here](https://spineproject1.onrender.com)**
+🌍 **Live demo [here](https://spineproject1.onrender.com)**
 
 ---
 
