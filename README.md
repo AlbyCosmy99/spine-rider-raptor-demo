@@ -1,4 +1,4 @@
-# SpineProject1 🦖🎮
+# Spine Rider Raptor Demo🦖🎮
 
 This project is a simple interactive web demo built with the **[Spine Player](http://esotericsoftware.com/spine-player)** library.  
 It showcases a character (rider + raptor) with animations that can be triggered directly from the UI.
