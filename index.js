@@ -1,9 +1,7 @@
-// Global variables
 let spinePlayer;
-let currentBackgroundColor = "rgba(0, 0, 0, 0)"; // Fully transparent
-let activeSkins = []; //current active skins
+let currentBackgroundColor = "rgba(0, 0, 0, 0)";
+let activeSkins = [];
 
-// Function to initialize Spine Player
 window.initializeSpinePlayer = (skins) => {
   console.log("webplayer.js: initializeSpinePlayer called.");
 
@@ -12,7 +10,6 @@ window.initializeSpinePlayer = (skins) => {
     return;
   }
 
-  // Dispose of existing Spine Player instance if it exists
   if (spinePlayer) {
     console.log("Disposing of the existing Spine Player instance.");
     spinePlayer.dispose();
@@ -20,7 +17,6 @@ window.initializeSpinePlayer = (skins) => {
 
   activeSkins = skins
 
-  // Initialize the Spine player
   spinePlayer = new spine.SpinePlayer("spine-player-container", {
     jsonUrl: './raptor-pma.json',
     atlasUrl: './raptor-pma.atlas.txt',
@@ -46,7 +42,6 @@ window.initializeSpinePlayer = (skins) => {
   });
 };
 
-// Function to check and initialize Spine Player
 function assembleSkin(skins, attempts = 0) {
   if (spine) {
     window.initializeSpinePlayer(skins);
@@ -58,19 +53,15 @@ function assembleSkin(skins, attempts = 0) {
   }
 }
 
-// without removing the current skin parts in other slots.
 function dressModel(clothingItemsArray) {
   if (spinePlayer && spinePlayer.skeleton) {
     let activeSkin = spinePlayer.skeleton.skin || spinePlayer.skeleton.data.defaultSkin;
     let customSkin = new spine.Skin("custom-skin");
 
-    // Add the current active skin to the custom skin
     customSkin.addSkin(activeSkin);
 
-    // Add the selected clothing items to the custom skin
     clothingItemsArray.forEach(item => addToCustomSkin(customSkin, item));
 
-    // Set the custom skin on the skeleton
     spinePlayer.skeleton.setSkin(customSkin);
     spinePlayer.skeleton.setSlotsToSetupPose();
     spinePlayer.skeleton.updateWorldTransform();
@@ -139,7 +130,4 @@ function animation(channel, name, loop = false, after = "walk") {
   }
 }
 
-
-
-// Call to start the initialization process
 assembleSkin(["default"]);
