@@ -2,6 +2,8 @@ let spinePlayer;
 let currentBackgroundColor = "rgba(0, 0, 0, 0)";
 let activeSkins = [];
 
+
+
 window.initializeSpinePlayer = (skins) => {
   console.log("webplayer.js: initializeSpinePlayer called.");
 
